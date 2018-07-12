@@ -5,18 +5,19 @@
 * Who is the client, what business domain the client is in.
 * What business problems are we trying to address?
 
-# *Client: Titanic Museum
+# Client: Titanic Museum
 
-* On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and * crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
-* One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew.    * Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than      * others, such as women, children, and the upper-class.
-* Keeping the conditions in mind, we aim to complete the analysis of what sorts of people were likely to survive. In particular we aim    * to use tools of machine learning to predict which people were most likely to survive. 
+* On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
+* One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than      * others, such as women, children, and the upper-class.
+* Keeping the conditions in mind, we aim to complete the analysis of what sorts of people were likely to survive. In particular we aim   to use tools of machine learning to predict which people were most likely to survive. 
 
 ## Scope
+* Using data analytics to build a machine learning model to predict the survival of passengers after the sinking of Titanic.
+
 * What data science solutions are we trying to build?
 * What will we do?
 * How is it going to be consumed by the customer?
 
-* *Using data analytics to build a machine learning model to predict the survival of passengers after the sinking of Titanic.
 
 
 ## Personnel
@@ -31,13 +32,15 @@
 		* Business contact
 	
 ## Metrics
+* Accuracy - To achieve 100% accuracy by predicting every passenger correctly. We will measure this from the statistical data actually available and compare that to the model results. 
+
 * What are the qualitative objectives? (e.g. reduce user churn)
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
 
-* *Accuracy - To achieve 100% accuracy by predicting every passenger correctly. We will measure this from the statistical data actually available and compare that to the model results. 
+
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
@@ -91,4 +94,4 @@
 * How will we keep in touch? Weekly meetings?
 * Who are the contact persons on both sides?
 
-* *Weekly meetings with the person in contact in the company.
+* Weekly meetings with the person in contact in the company.
