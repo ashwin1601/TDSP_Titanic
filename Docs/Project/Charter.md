@@ -32,10 +32,10 @@
 		* Business contact
 	
 ## Metrics
-* Accuracy - To achieve 100% accuracy by predicting every passenger correctly. We will measure this from the statistical data actually available and compare that to the model results. 
+* Accuracy - To achieve 80%+ accuracy by predicting every passenger correctly. We will measure this from the statistical data actually available and compare that to the model results. 
 
 * What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
+* What is a quantifiable metric?  (e.g. reduce the fraction of users with 4-week inactivity)
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
@@ -74,21 +74,25 @@
 
 ## Architecture
 * Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
+  * What data do we expect? A spreadsheet containing all recorded data from passengers of the Titanic.
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+  * sampled data enough for modeling 
+ We have imported all data from a csv file to a Python environment.
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
   * ASA for stream aggregation
   * HDI/Hive/R/Python for feature construction, aggregation and sampling
   * AzureML for modeling and web service operationalization
+ We have used Python and multiple of its libraries (Pandas, Seaborn, Numpy, Scikitlearn)
+ 
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+   The customer will use the insights extracted from the data for to inform the visitors.
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
