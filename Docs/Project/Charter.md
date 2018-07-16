@@ -5,14 +5,14 @@
 * Who is the client, what business domain the client is in.
 * What business problems are we trying to address?
 
-# Client: Titanic Museum
+# Client 
 
 * On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
 * One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than      * others, such as women, children, and the upper-class.
 * Keeping the conditions in mind, we aim to complete the analysis of what sorts of people were likely to survive. In particular we aim   to use tools of machine learning to predict which people were most likely to survive. 
 
 ## Scope
-* Using data analytics to build a machine learning model to predict the survival of passengers after the sinking of Titanic.
+* Using data analytics to build a machine learning model to predict the survival of passengers after the sinking of Titanic. We aim to predict if a passenger in the testing dataset will survive or not based on the model created. 
 
 * What data science solutions are we trying to build?
 * What will we do?
