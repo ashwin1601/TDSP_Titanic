@@ -2,8 +2,7 @@
 
 ## Business background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+       (Who is the client, what business domain the client is in.  What business problems are we trying to address?)
 
 # Client 
 
@@ -12,13 +11,8 @@
 * Keeping the conditions in mind, we aim to complete the analysis of what sorts of people were likely to survive. In particular we aim   to use tools of machine learning to predict which people were most likely to survive. 
 
 ## Scope
+     (What data science solutions are we trying to build? What will we do? How is it going to be consumed by the customer?)
 * Using data analytics to build a machine learning model to predict the survival of passengers after the sinking of Titanic. We aim to predict if a passenger in the testing dataset will survive or not based on the model created. 
-
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
-
-
 
 ## Personnel
 * Who are on this project:
@@ -31,19 +25,23 @@
 		* Data administrator
 		* Business contact
 	
-## Metrics
-* Accuracy - To achieve 80%+ accuracy by predicting every passenger correctly. We will measure this from the statistical data actually available and compare that to the model results. 
+## Metric
+              What are the qualitative objectives? (e.g. reduce user churn)
+              What is a quantifiable metric?  (e.g. reduce the fraction of users with 4-week inactivity)
+              Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of                users with 4-week inactivity by 20%) 
+              What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
+              How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance                after implementation to baseline)
+	      
+	     
+* Accuracy - To achieve 80%+ accuracy by predicting every passenger correctly. We will measure this from the statistical data actually     available and compare that to the model results. 
+* The baseline value of the metric is 61%. 
 
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric?  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+             
 
 
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+            ( Phases (milestones), timeline, short description of what we'll do in each phase.) 
 
 ## Business Understanding - 09/7/2018 - 13/7/2018 : 5 Working Days 
 * Define Business Objectives
@@ -73,12 +71,13 @@
 
 
 ## Architecture
-* Data
-  * What data do we expect? A spreadsheet containing all recorded data from passengers of the Titanic.
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * sampled data enough for modeling 
+                                    (What data do we expect?
+                                    Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.)                                       to move either
+                                    - all the data, 
+                                    - after some pre-aggregation on-prem,
+                                    - sampled data enough for modeling 
+				    
+ We expect the data to be in a csv file, containing the record of all the passengers aboard the titanic. 
  We have imported all data from a csv file to a Python environment.
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
@@ -95,7 +94,6 @@
    The customer will use the insights extracted from the data for to inform the visitors.
 
 ## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+        (How will we keep in touch? Weekly meetings? Who are the contact persons on both sides?)
 
-* Weekly meetings with the person in contact in the company.
+* Organise weekly meetings with the person in contact in the company, to update on the progress made and also ensure our solution is accepted. 
