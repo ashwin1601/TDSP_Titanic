@@ -76,22 +76,17 @@
      - all the data, 
      - after some pre-aggregation on-prem,
      - sampled data enough for modeling 
+     * What tools and data storage/analytics resources will be used in the solution e.g.,
+     ASA for stream aggregation
+     HDI/Hive/R/Python for feature construction, aggregation and sampling
+     AzureML for modeling and web service operationalization
 				    
  We expect the data to be in a csv file, containing the record of all the passengers aboard the titanic. 
- We have imported all data from a csv file to a Python environment.
+ We have imported all data from a csv file to a Python environment.  We have used Python and multiple of its libraries (Pandas, Seaborn, Numpy, Scikitlearn)
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
- We have used Python and multiple of its libraries (Pandas, Seaborn, Numpy, Scikitlearn)
+
+
  
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
-   The customer will use the insights extracted from the data for to inform the visitors.
 
 ## Communication
     (How will we keep in touch? Weekly meetings? Who are the contact persons on both sides?)
