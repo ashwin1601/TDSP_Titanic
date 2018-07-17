@@ -16,18 +16,16 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Brief description of its orignal location | Brief description of its destination location | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
-| Dataset 2 | Brief description of its orignal location | Brief description of its destination location | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
+| Training Set | Available Online on Kaggle | Uploaded on Git repository | N/A | https://github.com/ashwin1601/TDSP_Titanic/blob/master/train.xlsx|
+| Test Set | Available Online on Kaggle | Uploaded on Git repository | N/A | https://github.com/ashwin1601/TDSP_Titanic/blob/master/test.csv |
 
-
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
+* Training set summary. Access the data via Git. Training set to be used to create the machine learning models. The outcome for the passengers has been provided. The model will be developed on the features included. 
+* Test set summary. Access the data via Git. Test set to be used to see how well the model performs on unseen data. The model will be used to predict the outcome for each passenger, whether or not they survive the sinking of the titanic. 
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](link/to/dataset1/report), [Dataset2](link/to/dataset2/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
-| Processed Dataset 2 | [Dataset2](link/to/dataset2/report) |[script2.R](link/to/R/script/file/in/Code) | [Processed Dataset 2 Report](link/to/report2)|
+| training_dt | [Training set | Python  | [Processed Dataset 1 Report](link/to/report1)|
 
 * Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
 * Processed Data2 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data2 Report.> 
